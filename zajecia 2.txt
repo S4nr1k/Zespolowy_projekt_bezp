@@ -1,0 +1,200 @@
+Michał Szyksznia 163342
+
+Kamil Witczak 163344
+
+Oskar Wilk 163343
+
+Ihor Skrypnyk 165132
+
+
+REJESTR AKTYWÓW
+
+1. Kod źródłowy projektów stron internetowych
+
+Opis: Repozytoria i pliki źródłowe projektów stron internetowych tworzonych dla klientów.
+Osoba odpowiedzialna: Tech Lead / Główny Programista
+Znaczenie: Krytyczne
+
+2. Bazy danych klientów i aplikacji
+
+Opis: Bazy danych przechowujące informacje o klientach, dane uwierzytelniające oraz dane produkcyjne powiązane z wdrażanymi projektami.
+Osoba odpowiedzialna: Administrator Baz Danych / DevOps
+Znaczenie: Krytyczne
+
+3. System CRM
+
+Opis: System zarządzania relacjami z klientami, zawierający historię kontaktów, dane kontaktowe oraz umowy.
+Osoba odpowiedzialna: Specjalista ds. Sprzedaży / Manager Projektu
+Znaczenie: Wysokie
+
+4. Serwer plików
+
+Opis: Główny zasób dyskowy do przechowywania dokumentacji projektowej, grafik, materiałów od klientów oraz zasobów firmowych.
+Osoba odpowiedzialna: Administrator IT
+Znaczenie: Wysokie
+
+5. Komputery użytkowników
+
+Opis: Mobilne stacje robocze wykorzystywane przez 10-osobowy zespół w trybie hybrydowym do codziennej pracy projektowej i programistycznej.
+Osoba odpowiedzialna: Wszyscy pracownicy / Administrator IT
+Znaczenie: Wysokie
+
+6. Serwery
+
+Opis: Infrastruktura serwerowa hostująca środowiska testowe stron oraz systemy wewnętrzne organizacji.
+Osoba odpowiedzialna: Administrator IT / DevOps
+Znaczenie: Krytyczne
+
+7. Interfejs i usługi chmurowe
+
+Opis: Platformy chmurowe oraz narzędzia SaaS (w tym środowiska do hostingu, narzędzia do zarządzania projektami i zasobami).
+ Osoba odpowiedzialna: Administrator IT
+Znaczenie: Wysokie
+
+8. Poczta elektroniczna
+
+Opis: Firmowy system pocztowy służący do komunikacji z klientami, partnerami oraz wewnętrznej wymiany informacji.
+Osoba odpowiedzialna: Administrator IT
+Znaczenie: Wysokie
+
+9. Oprogramowanie projektowe
+
+Opis: Licencjonowane aplikacje i narzędzia używane przez zespół graficzny i UI/UX do tworzenia projektów interfejsów i modeli 3D.
+Osoba odpowiedzialna: Senior UI/UX Designer / Główny Grafik
+Znaczenie: Wysokie
+
+10. Specjalistyczna wiedza pracowników
+
+Opis: Unikalne kompetencje i wiedza ekspercka 10-osobowego zespołu z zakresu programowania, designu i obsługi technologii.
+Osoba odpowiedzialna: Zarząd / Wszyscy pracownicy
+Znaczenie: Krytyczne
+
+ZAGROŻENIA I PODATNOŚCI
+
+
+Składnik aktywów: Kod źródłowy projektów stron internetowych
+
+Zagrożenie: Działanie nieuczciwego pracownika lub nieautoryzowany dostęp z zewnątrz
+
+Podatność: Brak ścisłej kontroli wersji, brak mechanizmów DLP
+
+Możliwe konsekwencje: Kradzież własności intelektualnej, utrata kluczowych projektów klientów, konieczność opóźnienia wdrożeń oraz drastyczny spadek reputacji organizacji.
+
+Składnik aktywów: Bazy danych klientów i aplikacji produkcyjnych
+
+Zagrożenie: Atak hakerski/SQL Injection
+
+Podatność: Przestarzałe oprogramowanie bazodanowe, brak regularnych testów penetracyjnych oraz niedostatecznie zabezpieczone i przetestowane interfejsy aplikacji
+
+Możliwe konsekwencje: Wyciek poufnych danych klientów, naruszenie RODO, kary finansowe
+
+Składnik aktywów: Komputery użytkowników
+
+Zagrożenie: Phishing lub złośliwe oprogramowanie
+
+Podatność: Brak aktualnego oprogramowania antywirusowego, brak polityki silnych haseł lub uwierzytelniania wieloskładnikowego
+
+Możliwe konsekwencje: Przejęcie stacji roboczej pracownika, zaszyfrowanie lokalnych danych
+
+Składnik aktywów: Serwery
+
+Zagrożenie: Awaria infrastruktury lub cyberatak
+
+Podatność: Niezaktualizowane pakiety bezpieczeństwa systemu operacyjnego, brak monitoringu działania serwerów oraz brak aktualnej, backupu
+
+Możliwe konsekwencje: Niedostępność środowisk testowych i produkcyjnych, utrata danych biznesowych, zablokowanie realizacji usług na rzecz klientów oraz straty finansowe.
+
+Składnik aktywów: Interfejs i usługi chmurowe 
+
+Zagrożenie: Błędna konfiguracja usługi chmurowej
+
+Podatnoś: Domyślne dane uwierzytelniające, publiczne udostępnienie uprawnień do zasobów chmurowych lub brak autoryzacji dwuskładnikowej dla kont administratorów chmury
+
+Możliwe konsekwencj: Nieautoryzowany dostęp osób trzecich do danych produkcyjnych, modyfikacja kodu stron klientów przez osoby trzecie oraz kompromitacja całej infrastruktury chmurowej.
+
+
+
+REJESTR RYZYKA
+
+
+Wyciek danych klientów i aplikacji produkcyjnych w wyniku ataku hakerskiego na przestarzałe oprogramowanie bazodanowe
+
+prawd. 4 skutek 5 poziom r. 20
+
+
+
+Kradzież lub usunięcie kodu źródłowego przez nieuczciwego pracownika z powodu braku kontroli wersji i mechanizmów DLP.
+
+
+prawd. 3 skutek 5 poziom r. 15
+
+
+Przejęcie stacji roboczej pracownika (laptopa) poprzez phishing lub złośliwe oprogramowanie w trybie hybrydowym.
+
+
+prawd. 4 skutek 4 poziom r. 16
+
+
+
+Awaria serwerów
+
+
+prawd. 3 skutek 5 poziom r. 15
+
+
+Nieautoryzowany dostęp do chmury / danych produkcyjnych spowodowany błędną konfiguracją usługi chmurowej
+
+
+prawd. 4 skutek 4 poziom r. 16
+
+
+Utrata ciągłości pracy systemu CRM w wyniku awarii dostawcy SaaS lub błędu użytkownika
+
+
+prawd. 2 skutek 3 poziom r. 6
+
+
+
+TOP 5:
+Ryzyko wycieku danych klientów z baz danych (Wynik: 20)
+Ryzyko przejęcia stacji roboczej pracownika (laptopa) w pracy hybrydowej (Wynik: 16)
+Ryzyko nieautoryzowanego dostępu przez błędną konfigurację chmury (Wynik: 16)
+Ryzyko kradzieży kodu źródłowego przez nieuczciwego pracownika (Wynik: 15)
+Ryzyko awarii serwerów połączone z brakiem backupu / Przejęcie konta administratora (Wynik: 15)
+
+
+ORGANIZACJA PRACY ZESPOŁU
+
+Dla sprawnego zarządzania projektem z zakresu bezpieczeństwa infrastruktury w 4-osobowym zespole organizacji Witchak Modeling wykorzystamy nowoczesny stos narzędzi oparty na ekosystemie GitHub:
+
+GitHub – do zarządzania kodem źródłowym, plikami konfiguracyjnymi.
+
+GitHub Projects – do wizualizacji postępu prac w kolumnach: Do zrobienia, W trakcie, Do weryfikacj oraz Zakończone.
+
+Podział ról i odpowiedzialności w 4-osobowym zespole
+Każdy członek zespołu ma przypisane główne oraz wspierające obszary odpowiedzialności, co pozwala pokryć kluczowe aspekty projektu:
+
+1. Lider Projektu
+Odpowiedzialności:
+Nadzór nad harmonogramem prac i egzekwowanie terminów.
+Koordynacja działań związanych z analizą ryzyka i tworzeniem polityk bezpieczeństwa.
+Główny punkt kontaktu w sprawach zarządzania incydentami i relacji z zarządem/klientami.
+
+2. Administrator Systemów i Infrastruktury
+Odpowiedzialności:
+Bezpieczeństwo serwerów, środowisk testowo-produkcyjnych oraz usług chmurowych.
+Wdrożenie mechanizmów backupów oraz monitorowania infrastruktury.
+Konfiguracja bezpiecznego dostępu sieciowego i kontroli uprawnień
+
+3. Specjalista ds. Bezpieczeństwa Aplikacji i Kodu
+Odpowiedzialności:
+Kontrola bezpieczeństwa kodu źródłowego i repozytoriów.
+Bezpieczeństwo baz danych oraz audyt interfejsów i oprogramowania projektowego.
+Przeprowadzanie testów podatności aplikacji.
+
+4. Specjalista ds. Endpointów i Świadomości Użytkowników
+Odpowiedzialności:
+Zabezpieczenie komputerów użytkowników, instalacja i aktualizacja oprogramowania antywirusowego oraz szyfrowania dysków.
+Wdrożenie uwierzytelniania wieloskładnikowego dla całego zespołu.
+
+
